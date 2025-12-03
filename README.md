@@ -54,30 +54,23 @@ By 2023–2024:
 ### 2. Data Pre-Processing
 - Columns are renamed to Prophet format (ds, y)
 - Data is sorted by date
-- Optional transformations (log/normalization) are applied based on distribution
+- Transformations (log/normalization) are applied based on distribution
 
 ### 3. Train–Test Split
 - Latest portion of data (last 7–14 days) is separated
 - Used for evaluating the forecasting accuracy
 
-### 4. Model Training (Prophet)
+### 4. Prophet Model Training
 - Prophet model is initialized
 - Seasonality and trend components are automatically learned
 - Model is fit on historical data
 
 ### 5. Forecast Generation
 - Future dataframe is created for the next 7 days
-- Prophet generates predictions (yhat, yhat_lower, yhat_upper)
-
+  
 ### 6. Model Evaluation
 - Actual vs predicted values are compared
 - Metrics like MAE and RMSE are calculated to measure the forecast error
-
-### 7. Visualization & Interpretation
-- Forecast plot
-- Trend/seasonality components
-- Actual vs predicted comparison plot
-These help in interpreting the underlying patterns and forecast reliability.
 
 ---
 
