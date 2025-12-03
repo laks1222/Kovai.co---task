@@ -73,6 +73,12 @@ By 2023–2024:
 - Metrics like MAE and RMSE are calculated to measure the forecast error
 
 ---
+### Why Prophet Model?
+1. Prophet automatically handles trend, seasonality, and holiday-like patterns, making it ideal for transport ridership data with strong recurring cycles.  
+2. It is robust to missing values and sudden drops/spikes, such as COVID-19 disruptions in 2020.  
+3. The model is easy to tune and interpret, offering clear trend and seasonal component plots.  
+4. Prophet performs well on daily time-series forecasting, especially when there are multiple seasonal effects.
+
 
 ## Forecasting for the Next 7 Days
 <img width="804" height="262" alt="Screenshot 2025-12-03 121327" src="https://github.com/user-attachments/assets/d20349e9-d415-43ea-8c10-2d614a1478b1" />
