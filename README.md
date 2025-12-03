@@ -1,6 +1,6 @@
 # Data Analysis and Forecasting – KOVAI.CO
 
-## 📌 Key Insights
+## Key Insights
 
 ### **1. Strong Seasonal Patterns Across All Major Routes**
 Ridership shows clear recurring yearly patterns across Local, Light Rail, Rapid, and School routes.  
@@ -39,14 +39,14 @@ By 2023–2024:
 
 ---
 
-## 📊 Monthly Average Passenger Journeys by Service
+## Monthly Average Passenger Journeys by Service
 *(Insert your monthly average chart here if available.)*
 
 ---
 
-## 🔮 Forecasting for the Next 7 Days
+##  Forecasting for the Next 7 Days
 *(Insert your forecast plot or table here.)*
 
 ---
 
-## 🙏 Thank You!
+##  Thank You!
